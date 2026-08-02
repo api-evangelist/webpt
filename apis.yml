@@ -1,7 +1,16 @@
 aid: webpt
 name: WebPT
-description: WebPT is a company surfaced as a portfolio company of battery-ventures and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  WebPT is a rehabilitation-therapy software company providing a cloud practice-management
+  platform for physical, occupational, and speech therapy and behavioral-health clinics. Its
+  integrated suite spans clinical documentation and EMR, billing and revenue-cycle management,
+  front-office scheduling and digital patient intake, benefits verification, home exercise
+  programs, patient engagement and outcomes tracking, marketing, and practice analytics. WebPT
+  connects to 60+ EHR and healthcare systems (Epic, athenahealth, Veradigm, McKesson, Meditech,
+  Oracle Cloud, ModMed and others) through an integrations program built on HL7 interfaces
+  (ADT, BAR, DFT, MDM/ORU). WebPT does not publish a public REST API, developer portal, or
+  OpenAPI definition; integration is arranged through its partner and integrations program.
+  WebPT is a Battery Ventures portfolio company.
 url: https://raw.githubusercontent.com/api-evangelist/webpt/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +18,69 @@ x-backed-by:
 - battery-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Healthcare
+- Physical Therapy
+- Rehabilitation
+- Electronic Medical Records
+- Practice Management
+- Medical Billing
+- Patient Engagement
+- HL7
+- Health IT
+image: https://www.webpt.com/favicon.ico
 apis: []
+common:
+- type: Compliance
+  url: https://www.webpt.com/admin-security
+- type: TrustCenter
+  url: security/webpt-trust-center.yml
+- type: DomainSecurity
+  url: security/webpt-domain-security.yml
+- type: Website
+  url: https://www.webpt.com/
+- type: Documentation
+  url: https://www.webpt.com/integrations
+- type: Integrations
+  url: https://www.webpt.com/integrations
+- type: Partners
+  url: https://www.webpt.com/partners
+- type: Pricing
+  url: https://www.webpt.com/pricing
+- type: Blog
+  url: https://www.webpt.com/blog
+- type: PrivacyPolicy
+  url: https://www.webpt.com/privacy-policy
+- type: TermsOfService
+  url: https://www.webpt.com/terms
+- type: SignUp
+  url: https://www.webpt.com/demo
+- type: Login
+  url: https://app.webpt.com/
+- type: GitHubOrganization
+  url: https://github.com/webpt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

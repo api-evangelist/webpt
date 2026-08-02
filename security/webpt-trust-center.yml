@@ -1,0 +1,13 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+source: https://www.webpt.com/admin-security
+url: https://www.webpt.com/admin-security
+certifications:
+- SOC 2
+- HIPAA
+evidence:
+- source: https://www.webpt.com/admin-security
+  keywords:
+  - soc 2
+  - hipaa
