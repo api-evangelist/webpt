@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-WebPT is a company surfaced as a portfolio company of battery-ventures and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+WebPT is a rehabilitation-therapy software company providing a cloud practice-management platform for physical, occupational, and speech therapy and behavioral-health clinics. Its integrated suite spans clinical documentation and EMR, billing and revenue-cycle management, front-office scheduling and digital patient intake, benefits verification, home exercise programs, patient engagement and outcomes tracking, marketing, and practice analytics. WebPT connects to 60+ EHR and healthcare systems (Epic, athenahealth, Veradigm, McKesson, Meditech, Oracle Cloud, ModMed and others) through an integrations program built on HL7 interfaces (ADT, BAR, DFT, MDM/ORU). WebPT does not publish a public REST API, developer portal, or OpenAPI definition; integration is arranged through its partner and integrations program. WebPT is a Battery Ventures portfolio company.
 
-Backed by: battery-ventures
+**Areas:** Company · Healthcare · Physical Therapy · Rehabilitation · Electronic Health Records · Practice Management · Medical Billing · Patient Engagement · HL7 · Health IT
+
+## WebPT on APIs.io
+
+Everything profiled for WebPT is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/webpt/](https://apis.io/providers/webpt/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Webpt Domain Security](https://apis.io/security/webpt/webpt-domain-security/)
+- [Webpt Trust Center](https://apis.io/security/webpt/webpt-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.webpt.com/)
+- [Documentation](https://www.webpt.com/integrations)
+- [Pricing](https://www.webpt.com/pricing)
+- [Sign up](https://www.webpt.com/demo)
+- [Blog](https://www.webpt.com/blog)
+- [Compliance](https://www.webpt.com/admin-security)
+- [Terms of service](https://www.webpt.com/terms)
+- [Privacy policy](https://www.webpt.com/privacy-policy)
+- [GitHub](https://github.com/webpt)
+
+## API Evangelist rating
+
+**Kin Score 20.0** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 60.5 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 14.8** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/webpt/](https://apis.io/providers/webpt/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for WebPT: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/webpt/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
